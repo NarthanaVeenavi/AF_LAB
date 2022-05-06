@@ -3,12 +3,6 @@ import { Link } from 'react-router-dom';
 import Form from 'react-bootstrap/Form'
 import axios from 'axios'
 
-
-
-
-
-
-
 export default class AddProfile extends Component {
 
   constructor(props){

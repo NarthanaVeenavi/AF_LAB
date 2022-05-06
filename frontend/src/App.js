@@ -14,38 +14,21 @@ import './components/Home/home.css'
 export default class App extends Component {
   render() {
     return (
-      
       <BrowserRouter>
-      
-     <Routes>
-    
-     <Route exact path="/" element={ <Home/> }/>
-     <Route path="/trader/home" element={<TraderHome/> }/>
-     <Route path="/customer/home" element={<CustomerHome/> }/>
-     <Route path="/item/add" element={<Item/> }/>
-     <Route path="/profile" element={<Profile/> }/>
-     <Route path="/profile/add" element={<AddProfile/> }/>
-     <Route path="/promotion/add" element={<AddPromotion/> }/>
-     <Route path="/promotion" element={<Promotion/> }/>
-     <Route path="/:id" element={<EditItem/> }/>
-     {/* <Route path="item" element={<EditItem/> }/> */}
-     
-     
-     
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/trader/home" element={<TraderHome />} />
+          <Route path="/customer/home" element={<CustomerHome />} />
+          <Route path="/item/add" element={<Item />} />
+          <Route path="/profile" element={<Profile />} />
+          <Route path="/profile/add" element={<AddProfile />} />
+          <Route path="/promotion/add" element={<AddPromotion />} />
+          <Route path="/promotion" element={<Promotion />} />
+          <Route path="/:id" element={<EditItem />} />
+          {/* <Route path="item" element={<EditItem/> }/> */}
 
-         </Routes>
-         
-        
+        </Routes>
       </BrowserRouter>
-
-
-      
-
-
-
-
-
-      
      
     );
   }

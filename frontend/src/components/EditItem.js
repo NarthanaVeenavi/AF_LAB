@@ -2,8 +2,6 @@ import React, { Component } from 'react'
 import Form from 'react-bootstrap/Form'
 import axios from 'axios'
 
-
-
 export default class EditItem extends Component {
 
     constructor(props) {
