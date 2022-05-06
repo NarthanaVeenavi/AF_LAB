@@ -1,0 +1,25 @@
+#home {
+    background-image: url("https://techbrise.com/wp-content/uploads/2020/01/techbrise-best-ecommerce.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20cm;
+}
+
+#button-group{
+    margin-left: 16cm;
+    width: 8cm;
+}
+
+#button1{
+    margin-top: 8cm;
+    width: 4cm;
+    height: 1.3cm;
+    border-radius: 5px 0 0 5px;
+}
+
+#button2{
+    width: 4cm;
+    height: 1.3cm;
+    border-radius: 0 5px 5px 0;
+}

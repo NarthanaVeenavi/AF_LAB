@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "koa",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.17.10",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@koa/cors": "^3.3.0",
+    "koa": "^2.13.4",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^10.1.1",
+    "koajs-cors": "^1.0.9"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
